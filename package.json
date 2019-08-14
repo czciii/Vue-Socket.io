@@ -17,7 +17,6 @@
     "vue",
     "socket.io",
     "websocket",
-    "socket.io-client",
     "realtime",
     "flux",
     "vuex",
