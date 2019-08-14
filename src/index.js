@@ -67,7 +67,6 @@ export default class VueSocketIO {
       Logger.info(`Received socket.io-client instance`);
       return connection;
     } else if (typeof connection === "string") {
-      // const io = SocketIO(connection, options);
       const io = new WebSocket(connection);
       Logger.info(`Received connection string`);
       return (this.io = io);
