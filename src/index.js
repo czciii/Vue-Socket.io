@@ -2,7 +2,7 @@ import Mixin from "./mixin";
 import Logger from "./logger";
 import Listener from "./listener";
 import Emitter from "./emitter";
-import SocketIO from "socket.io-client";
+// import SocketIO from "socket.io-client";
 
 export default class VueSocketIO {
 
