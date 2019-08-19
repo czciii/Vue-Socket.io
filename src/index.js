@@ -30,7 +30,7 @@ export default class VueSocketIO {
      */
     install(Vue){
 
-        const namespace = this.namespaceName || this.io.nsp.replace("/", "");
+        const namespace = this.namespaceName || '';
 
         if (this.useConnectionNamespace) {
           if (typeof Vue.prototype.$socket === "object") {
